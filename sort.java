@@ -6,5 +6,5 @@ class sort{
         arr[j] = temp;
     }
 
-    static sorting(int arr)
+    static void sorting(int arr)
 }
