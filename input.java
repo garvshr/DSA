@@ -9,4 +9,3 @@ public class input {
     System.out.println("Your Number is "+n);
     }
 }
-arey bhaiya dhynaya waad mujhe toh pta hi nhi tha ") chal gaya pata ab" madarchod
