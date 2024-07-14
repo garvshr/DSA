@@ -1,4 +1,4 @@
-class Solution 
+public class Solution
 {
     static boolean uniqueOccurrences(int[] arr) 
     {
@@ -31,14 +31,14 @@ class Solution
 
     public static void main(String[] args) 
     {
-        Solution solution = new Solution();
+        Solution solutionn = new Solution();
 
         int[] test1 = {1, 2, 2, 1, 1, 3};
         int[] test2 = {1, 2};
         int[] test3 = {-3, 0, 1, -3, 1, 1, 1, -3, 10, 0};
 
-        System.out.println(solution.uniqueOccurrences(test1)); // should return true
-        System.out.println(solution.uniqueOccurrences(test2)); // should return false
-        System.out.println(solution.uniqueOccurrences(test3)); // should return true
+        System.out.println(solutionn.uniqueOccurrences(test1)); // should return true
+        System.out.println(solutionn.uniqueOccurrences(test2)); // should return false
+        System.out.println(solutionn.uniqueOccurrences(test3)); // should return true
     }
 }

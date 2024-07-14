@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "duplicate",
+            "request": "launch",
+            "mainClass": "duplicate",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "unique_occ",
+            "request": "launch",
+            "mainClass": "unique_occ",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "any_base",
+            "request": "launch",
+            "mainClass": "any_base",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "basic",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "bubble",
+            "request": "launch",
+            "mainClass": "bubble",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "compliment",
+            "request": "launch",
+            "mainClass": "compliment",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "decimal",
+            "request": "launch",
+            "mainClass": "decimal",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "hh",
+            "request": "launch",
+            "mainClass": "hh",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "input",
+            "request": "launch",
+            "mainClass": "input",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "insertion",
+            "request": "launch",
+            "mainClass": "insertion",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "power",
+            "request": "launch",
+            "mainClass": "power",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "prefix_sum",
+            "request": "launch",
+            "mainClass": "prefix_sum",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "reverse",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "same",
+            "request": "launch",
+            "mainClass": "same",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "selection",
+            "request": "launch",
+            "mainClass": "selection",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "sort",
+            "request": "launch",
+            "mainClass": "sort",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "sort_zeroes",
+            "request": "launch",
+            "mainClass": "sort_zeroes",
+            "projectName": "Java_fc2939cb"
+        }
+    ]
+}
