@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "merge_sort",
+            "request": "launch",
+            "mainClass": "merge_sort",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
             "name": "duplicate",
             "request": "launch",
             "mainClass": "duplicate",
