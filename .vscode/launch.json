@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bits_java",
+            "request": "launch",
+            "mainClass": "bits_java",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
             "name": "palindrome",
             "request": "launch",
             "mainClass": "palindrome",
