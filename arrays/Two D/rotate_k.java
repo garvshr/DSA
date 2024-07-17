@@ -34,6 +34,8 @@ public class rotate_k
             int temp = arr[left];
             arr[left] = arr[right];
             arr[right] = temp;
+            left++;
+            right--;
         }
     }
 
