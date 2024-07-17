@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "merge_sorted_arr",
+            "request": "launch",
+            "mainClass": "merge_sorted_arr",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "squares",
+            "request": "launch",
+            "mainClass": "squares",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "remove_ele",
+            "request": "launch",
+            "mainClass": "remove_ele",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
             "name": "bits_java",
             "request": "launch",
             "mainClass": "bits_java",
