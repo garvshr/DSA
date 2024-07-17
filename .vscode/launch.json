@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotate_k",
+            "request": "launch",
+            "mainClass": "rotate_k",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "two_d_input",
+            "request": "launch",
+            "mainClass": "two_d_input",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "two_pointer",
+            "request": "launch",
+            "mainClass": "two_pointer",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
             "name": "merge_sorted_arr",
             "request": "launch",
             "mainClass": "merge_sorted_arr",
