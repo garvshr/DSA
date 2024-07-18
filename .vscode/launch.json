@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pascal_Triangle",
+            "request": "launch",
+            "mainClass": "Pascal_Triangle",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
             "name": "rotate_k",
             "request": "launch",
             "mainClass": "rotate_k",

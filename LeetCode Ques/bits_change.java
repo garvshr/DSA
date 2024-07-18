@@ -4,7 +4,7 @@ class bits_java
     {
         int n = 5;
         int arr[] = new int[15];
-        int x=0;
+        int x=0,d=0;
         while(n!=0)
         {
            arr[x] = n%2;

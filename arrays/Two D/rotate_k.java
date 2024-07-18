@@ -62,6 +62,6 @@ public class rotate_k
                 arr[i][j] = ob.nextInt();
             }
         }
-        Rotate(arr);    
+        Rotate(arr, 6);    
     }
 }
