@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prefix_sum_mat",
+            "request": "launch",
+            "mainClass": "prefix_sum_mat",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "prefix_summ",
+            "request": "launch",
+            "mainClass": "prefix_summ",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
             "name": "spiral_matrix",
             "request": "launch",
             "mainClass": "spiral_matrix",
