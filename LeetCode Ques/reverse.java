@@ -1,22 +1,17 @@
 import java.util.Scanner;
 public class reverse {
     
-    static void rev(int n)
+    static int rev(int n)
     {
-        int d , s=0 , m;
-        m=n;
-        if(m<0)
-            m=m*(-1);
-        while(m>0)
+        int rev=0;
+        while(n !=0 )
         {
-            d=m%10;
-            s=s*10+d;
-            m=m/10;
+            if(rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) return 0;
+            int d = n % 10;
+            n /= 10;
+            rev = (rev*10) + d;
         }
-        if(n<0)
-            System.out.print(s*(-1));
-        else
-        System.out.print(s);
+        return rev;
     }
     public static void main(String args[])
     {
