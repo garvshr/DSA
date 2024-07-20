@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 public class Pascal_Triangle 
 {
     static void Print(int arr[][])
@@ -12,20 +14,38 @@ public class Pascal_Triangle
         }
     }
 
-    static void pascal(int n)
+    // static void pascal(int n)
+    // {
+    //     int pas[][] = new int[n][];
+    //     for(int i = 0; i < n; i++)
+    //     {
+    //         pas[i] = new int[i+1];
+    //         pas[i][0] = pas[i][i] = 1;
+    //         for(int j = 1; j < i; j++)
+    //         {
+    //             pas[i][j] = pas[i-1][j] + pas[i-1][j-1];
+    //         }
+    //     }
+    //     Print(pas);
+    // }    
+
+    static List<List<Integer>> pascal(int n)
     {
-        int pas[][] = new int[n][];
-        for(int i = 0; i < n; i++)
+        List<List<Integer>> pas = new ArrayList<>();
+        for(int i = 0; i <= n; i++)
         {
-            pas[i] = new int[i+1];
-            pas[i][0] = pas[i][i] = 1;
-            for(int j = 0; i < i; i++)
+            List<Integer> row = new ArrayList<>();
+            for (int j = 0; j <= i; j++) 
             {
-                pas[i][j] = pas[i-1][j] + pas[i-1][j-1];
+                if(j == 0 || j == i)
+                    row.add(1); 
+                else
+                    row.add((pas.get(i-1).get(j)) + pas.get(i-1).get(j-1));  
             }
+            pas.add(row); 
         }
-        Print(pas);
-    }    
+        return pas;
+    }
 
     public static void main(String[] args) 
     {
