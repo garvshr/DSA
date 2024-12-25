@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "heh",
+            "request": "launch",
+            "mainClass": "heh",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "gcd",
+            "request": "launch",
+            "mainClass": "gcd",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "fibo",
+            "request": "launch",
+            "mainClass": "fibo",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "binarysearch",
+            "request": "launch",
+            "mainClass": "binarysearch",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "SOD_strings",
+            "request": "launch",
+            "mainClass": "SOD_strings",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
             "name": "prefix_sum_mat",
             "request": "launch",
             "mainClass": "prefix_sum_mat",
