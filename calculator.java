@@ -66,9 +66,9 @@ public class calculator
                 System.out.println("Invalid Input");
         }
         ob.nextLine();
-        System.out.println("Do you want to Continue ? Enter YES or NO");
+        System.out.println("Do you want to Continue ? Enter y or n");
         String check = ob.nextLine();
-        running = check.equalsIgnoreCase("YES");
+        running = check.equalsIgnoreCase("y");
     }
         ob.close();
     }  
