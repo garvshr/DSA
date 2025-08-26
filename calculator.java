@@ -17,12 +17,12 @@ public class calculator
         if(choice == 5)
         {
             CheckHistory(file);
-            return;
+            
         }
         else if(choice == 6)
         {
             ClearHistory(file);
-            return;
+            
         }
 
         System.out.println("Enter two numbers");
