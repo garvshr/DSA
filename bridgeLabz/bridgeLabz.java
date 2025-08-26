@@ -1,4 +1,4 @@
-package bridgeLabzday1;
+package bridgeLabz;
 public class bridgeLabz {
 
     public static void aocy(int r, int h) {
