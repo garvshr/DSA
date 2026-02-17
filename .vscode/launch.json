@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "sumOfN",
+            "request": "launch",
+            "mainClass": "sumOfN",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "NtoOne",
+            "request": "launch",
+            "mainClass": "NtoOne",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "reverseOrder",
+            "request": "launch",
+            "mainClass": "reverseOrder",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "Bit_282A",
+            "request": "launch",
+            "mainClass": "Bit_282A",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "Watermelon_4A",
+            "request": "launch",
+            "mainClass": "Watermelon_4A",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "HelpfulMaths_339A",
+            "request": "launch",
+            "mainClass": "HelpfulMaths_339A",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "Team_231A",
+            "request": "launch",
+            "mainClass": "Team_231A",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "FractionalKnapsack",
+            "request": "launch",
+            "mainClass": "FractionalKnapsack",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagram",
+            "request": "launch",
+            "mainClass": "ValidAnagram",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
+            "name": "inherit",
+            "request": "launch",
+            "mainClass": "inherit",
+            "projectName": "Java_fc2939cb"
+        },
+        {
+            "type": "java",
             "name": "calculator",
             "request": "launch",
             "mainClass": "calculator",
